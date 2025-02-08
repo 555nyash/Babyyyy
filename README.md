@@ -9,6 +9,7 @@
       text-align: center;
       margin-top: 100px;
       background-color: #f9f9f9;
+      overflow: hidden;
     }
     h1 {
       color: #e91e63;
@@ -74,20 +75,18 @@
     function moveNoButton() {
       const x = Math.random() * (window.innerWidth - noButton.offsetWidth);
       const y = Math.random() * (window.innerHeight - noButton.offsetHeight);
-      noButton.style.left = ${x}px;
-      noButton.style.top = ${y}px;
+      noButton.style.left = `${x}px`;
+      noButton.style.top = `${y}px`;
     }
 
     function createConfetti() {
       for (let i = 0; i < 100; i++) {
         const confetti = document.createElement('div');
         confetti.classList.add('confetti');
-        confetti.style.left = ${Math.random() * 100}vw;
-        confetti.style.animationDelay = ${Math.random() * 2}s;
-        confetti.style.backgroundColor = hsl(${Math.random() * 360}, 100%, 50%);
+        confetti.style.left = `${Math.random() * 100}vw`;
+        confetti.style.animationDelay = `${Math.random() * 2}s`;
+        confetti.style.backgroundColor = `hsl(${Math.random() * 360}, 100%, 50%)`;
         confettiContainer.appendChild(confetti);
       }
     }
   </script>
-</body>
-</html>

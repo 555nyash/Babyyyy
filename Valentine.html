@@ -53,7 +53,10 @@
     <button id="noButton">No</button>
   </div>
   <div id="celebration" style="display: none;">
-    <h2>Yay! You made my day! 💖🎉</h2>
+    <h2> 😍😍You made my day! ❤️❤️🎉</h2>
+    <h2> I Love You!!!❤️❤️</h2>
+    <h2>❤️❤️❤️❤️❤️❤️❤️❤️</h2>
+    <h2>❤️❤️❤️❤️❤️❤️❤️❤️</h2>
     <div id="confettiContainer"></div>
   </div>
 
